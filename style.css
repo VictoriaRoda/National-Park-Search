@@ -3,11 +3,19 @@ body {
 }
 
 input {
-  width: 75px;
+  width: 15px;
+}
+
+number-size {
+  width: 10px;
 }
 
 button, input[type="text"] {
   padding: 5px;
+}
+
+button, input[type="submit"] {
+  width: 75px;
 }
 
 ul {
@@ -33,4 +41,13 @@ li {
 .hidden {
   display: none;
 }
+
+@media only screen and (min-width: 700px) {
+
+  button, input[type="submit"] {
+    width: 75px;
+    margin-top: 5px;
+ }
+}
+
 
