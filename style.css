@@ -3,14 +3,10 @@ body {
 }
 
 input {
-  width: 15px;
+  width: 55px;
 }
 
-number-size {
-  width: 10px;
-}
-
-button, input[type="text"] {
+button {
   padding: 5px;
 }
 
